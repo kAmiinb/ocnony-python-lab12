@@ -3,6 +3,7 @@ from typing import Dict
 import uvicorn
 import requests
 from pymongo import MongoClient
+from pydantic import BaseModel
 
 
 app = FastAPI()
